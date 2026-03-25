@@ -1,0 +1,66 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ID selector (requirement) */
+#main-title {
+    font-size: 32px;
+}
+
+/* Navigation bar using flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #333;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Class selector (requirement) */
+.highlight {
+    color: darkblue;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
