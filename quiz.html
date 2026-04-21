@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Web Browsers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 id="main-title">Web Browsers</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="topic1.html">Role & History</a>
+    <a href="topic2.html">Modern & Future</a>
+    <a href="concepts.html">Key Concepts</a>
+    <a href="references.html">References</a>
+    <a href="about.html">About</a>
+    <a href="quiz.html">Quiz</a>
+</nav>
+
+<main>
+    <h2>Web Browsers Self-Assessment Quiz</h2>
+    <p>Test your understanding of web browsers, browser structure, and related concepts.</p>
+
+    <form id="quiz-form">
+        <div class="quiz-question">
+            <label for="q1"><strong>1. Fill in the blank:</strong> HTML stands for ________ Markup Language.</label>
+            <input type="text" id="q1" name="q1">
+        </div>
+
+        <div class="quiz-question">
+            <p><strong>2. Which browser engine is used by Firefox?</strong></p>
+            <label><input type="radio" name="q2" value="Blink"> Blink</label><br>
+            <label><input type="radio" name="q2" value="Gecko"> Gecko</label><br>
+            <label><input type="radio" name="q2" value="WebKit"> WebKit</label>
+        </div>
+
+        <div class="quiz-question">
+            <p><strong>3. What language is mainly used to add interactivity to webpages?</strong></p>
+            <label><input type="radio" name="q3" value="CSS"> CSS</label><br>
+            <label><input type="radio" name="q3" value="JavaScript"> JavaScript</label><br>
+            <label><input type="radio" name="q3" value="HTML"> HTML</label>
+        </div>
+
+        <div class="quiz-question">
+            <p><strong>4. What is one major benefit of Progressive Web Apps?</strong></p>
+            <label><input type="radio" name="q4" value="They only work on desktop"> They only work on desktop</label><br>
+            <label><input type="radio" name="q4" value="They can support offline access"> They can support offline access</label><br>
+            <label><input type="radio" name="q4" value="They remove the need for the internet forever"> They remove the need for the internet forever</label>
+        </div>
+
+        <div class="quiz-question">
+            <p><strong>5. Select all technologies commonly used by web browsers to display and run websites:</strong></p>
+            <label><input type="checkbox" name="q5" value="HTML"> HTML</label><br>
+            <label><input type="checkbox" name="q5" value="CSS"> CSS</label><br>
+            <label><input type="checkbox" name="q5" value="JavaScript"> JavaScript</label><br>
+            <label><input type="checkbox" name="q5" value="Photoshop"> Photoshop</label>
+        </div>
+
+        <button type="submit">Submit Quiz</button>
+        <button type="reset" id="reset-btn">Retake Quiz</button>
+    </form>
+
+    <div id="quiz-results"></div>
+</main>
+
+<footer>
+    <p>IT 3203 Class Project | Khalen Therlonge</p>
+</footer>
+
+<script src="quiz.js"></script>
+</body>
+</html>
