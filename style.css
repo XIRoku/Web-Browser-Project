@@ -1,66 +1,132 @@
-/* Page styling */
+/*Page styling*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
+    color: #222;
 }
 
-/* Header */
+/*Header*/
 header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
-/* ID selector (requirement) */
+/*Main title*/
 #main-title {
     font-size: 32px;
+    margin: 0;
 }
 
-/* Navigation bar using flexbox */
+/*Navigation*/
 nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #555;
 }
 
-/* Navigation links */
 nav a {
     color: white;
-    padding: 10px 15px;
+    padding: 12px 16px;
     text-decoration: none;
 }
 
-/* Hover effect */
 nav a:hover {
     background-color: #333;
 }
 
-/* Main content */
+/*Main content*/
 main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
     padding: 20px;
+    border-radius: 8px;
 }
 
-/* Class selector (requirement) */
+main ul {
+    line-height: 1.8;
+}
+
+/*Table style*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #444;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+/*highlight class*/
 .highlight {
     color: darkblue;
 }
 
-/* Table styling */
-table {
+/*Quiz style*/
+.quiz-question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+input[type="text"] {
     width: 100%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
+    max-width: 400px;
     padding: 8px;
+    margin-top: 8px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #ddd;
+button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#quiz-results {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
 }
