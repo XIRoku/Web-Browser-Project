@@ -130,3 +130,58 @@ button:hover {
     color: red;
     font-weight: bold;
 }
+
+/* Responsive design for tablet screens */
+@media (max-width: 900px) {
+    main {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    nav a {
+        padding: 10px;
+        margin: 3px;
+    }
+}
+
+/* Responsive design for phone screens */
+@media (max-width: 600px) {
+    #main-title {
+        font-size: 24px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+        border-top: 1px solid #666;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    input[type="text"],
+    button {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+}
