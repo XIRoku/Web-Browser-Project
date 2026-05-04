@@ -185,3 +185,12 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+
+/* Image sizing for responsive design*/
+img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
